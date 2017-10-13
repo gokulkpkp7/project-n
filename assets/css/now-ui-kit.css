@@ -5106,7 +5106,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer.footer-default {
-    background-color: #f2f2f2;
+    background-color: #bdbdbd;
 }
 
 .footer nav {
@@ -5122,6 +5122,11 @@ Created using IcoMoon - icomoon.io
 
 .footer ul li {
     display: inline-block;
+    border-right: 2px solid #191919;
+}
+
+.footer ul li:last-child {
+    border:none;
 }
 
 .footer ul li a {
@@ -5134,6 +5139,10 @@ Created using IcoMoon - icomoon.io
 
 .footer ul li a:hover {
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f96332;
 }
 
 .footer .copyright {
@@ -5282,6 +5291,10 @@ Created using IcoMoon - icomoon.io
 .profile-page .gallery {
     margin-top: 45px;
     padding-bottom: 50px;
+}
+.profile-page .gallery img:hover {
+    cursor: pointer;
+    
 }
 
 .section-full-page:after,
